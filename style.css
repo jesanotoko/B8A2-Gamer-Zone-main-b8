@@ -252,7 +252,7 @@ font-weight: 700;
 }
 .cir5{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 15px;
 }
 .cir4{
@@ -344,6 +344,20 @@ footer{
     .linkso{
         width: auto;
        
+    }
+    .cir5{
+        display: flex;
+        justify-content: space-between;
+       flex-wrap: wrap;
+    }
+    .cir img{
+        width: 30px;
+    }
+    .cir4{
+        display: none;
+    }
+    .cir h5{
+        font-size: .7rem;
     }
     .footer-title{
         display: flex;
@@ -465,9 +479,7 @@ nav{
 }
 
 
-.circle{
-    display: none;
-}
+
 
 
 }
@@ -511,6 +523,20 @@ nav{
    
  
  }
+ .cir5{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+}
+.cir img{
+    width: 30px;
+}
+.cir4{
+    display: none;
+}
+.cir h5{
+    font-size: .7rem;
+}
  .play-content{
     width : 60%;
     margin: 1px auto;
