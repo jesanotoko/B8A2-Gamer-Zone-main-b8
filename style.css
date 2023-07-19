@@ -331,11 +331,49 @@ footer{
 
 
 @media screen and (max-width: 576px){
+    .footer-info{
+        width: auto;
+    }
+    .footer-bar ul,
+    
+    .linkso ul{
+        width: auto;
+        flex-wrap: wrap;
+        gap:6px;
+    }
+    .linkso{
+        width: auto;
+       
+    }
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 80%;
+      margin: 40px auto;
+       
+    }
+    .condition{
+        width: auto;
+    }
+    .condition ul{
+        width: auto;
+        flex-wrap: wrap;
+        padding-right: 3px;
+        margin-right: 0px;
+    }
     .nav-info,
     .nav-bar ul,
     .banner-info{
     flex-direction: column;
     gap: 40px;
+}
+.kkk{
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    width: auto;
+    margin: 1px auto;
 }
 .banner-info{
     flex-direction: column-reverse;
