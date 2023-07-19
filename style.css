@@ -261,7 +261,71 @@ font-weight: 700;
     display:flex;
     justify-content: space-around;
 }
+footer{
+    width: 100%;
+    background-color: #0B0223;
+    color: white;
+    margin-top: 100px;
+}
+.footer-info{
+    width: 45%;
+    margin: 50px auto 0;
+   padding: 100px;
+    
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 30%;
+  margin: 40px auto;
+   
+}
+.footer-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bar ul li{
+    list-style: none;
+}
+.linkso{
+    width: 42%;
+    margin: 30px auto;
+}
+.linkso ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.linkso ul li{
+    list-style: none;
+    cursor: pointer;
+
+}
+.condition{
+    width: 66%;
+    margin: 30px auto;
+
+}
+.condition ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.condition ul li {
+    list-style: none;
+    font-size: .7rem;
+    font-weight: 500;
+}
+.kkk{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    width: 60%;
+    margin: 10px auto;
+}
 
 
 
@@ -362,44 +426,11 @@ nav{
 
 }
 
- .cir5,
-.cir4
- {
-   flex-direction: row;
-   flex-wrap: wrap;
-}
-.cir4{
-    width: 10%;
-    display:none;
-    
-}
+
 .circle{
-    max-width: 90%;
+    display: none;
 }
-.cir{
-    display: flex;
-    align-items: center;
-    gap: 1px ;
-  
-  
-  
-  
-  }
-  .circle h5{
-      font-size: .5rem;
-      font-weight: 500;
-      
-  }
-  .circle button{
-      padding: 2px 5px;
-      background-color: white;
-      border-radius: 90px;
-      border: none;
-  
-  }
-.circle img{
-    width: 20%;
-} 
+
 
 }
 
